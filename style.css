@@ -303,3 +303,545 @@ nav .right a {
   }
 }
 
+.about-section {
+  padding: 0 50px;
+  margin-bottom: 100px;
+  background: linear-gradient(97deg, #f7f9fc, #e7ecff 95%);
+  border-radius: 25px;
+  box-shadow: 0 8px 34px rgba(95, 134, 228, 0.10);
+  transition: box-shadow 0.3s;
+}
+
+.about-section:hover {
+  box-shadow: 0 12px 40px rgba(70, 100, 220, 0.12);
+}
+
+.about-section h2 {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 16px;
+  color: #345;
+  letter-spacing: 2px;
+}
+
+.about-content {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.about-content p {
+  font-size: 20px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  color: #233045;
+}
+
+.future-projects {
+  text-align: left;
+  background: #fff;
+  border-radius: 18px;
+  padding: 27px 35px;
+  box-shadow: 0 2px 12px rgba(195, 215, 245, 0.12);
+  margin: 0 auto;
+  max-width: 620px;
+}
+
+.future-projects h3 {
+  color: #4f91ff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 18px;
+  text-shadow: 0 1px 8px #e1e7fa55;
+}
+
+.future-projects ul {
+  margin-bottom: 15px;
+  padding-left: 19px;
+}
+
+.future-projects li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #3b5083;
+}
+
+.future-projects strong {
+  color: #3959b7;
+}
+body {
+  background: linear-gradient(120deg, #f7f9fc 60%, #e1e7fa 100%);
+  font-family: 'PT Sans', 'Segoe UI', Arial, sans-serif;
+  letter-spacing: 0.02em;
+}
+
+h2, h3 {
+  text-shadow: 0 3px 12px rgba(90,143,241, 0.05);
+}
+
+a:hover, .skills-section .cells .cell:hover span {
+  color: #4f91ff !important;
+  text-decoration: underline;
+  transition: color 0.18s;
+}
+
+.skills-section .cells .cell {
+  background: #fff;
+  border: 1.5px solid #b0c6e3;
+  box-shadow: 0 2px 8px #e1e7fa60;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.skills-section .cells .cell:hover {
+  transform: translateY(-5px) scale(1.04);
+  box-shadow: 0 6px 20px #b0c6e370;
+}
+
+.resume-btn a {
+  letter-spacing: 0.1em;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+input, textarea {
+  border-radius: 8px;
+  box-shadow: 0 2px 6px #e0e7ff33;
+  border-color: #b0c6e3;
+  font-size: 15px;
+}
+
+button[type="submit"] {
+  border-radius: 22px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  box-shadow: 0 2px 8px #3f7be030;
+}
+
+@media (max-width: 800px) {
+  .about-section, .skills-section, .testimony-section, .contact-section {
+    padding: 0 10px;
+    border-radius: 10px;
+  }
+  .future-projects {
+    padding: 12px 9px;
+  }
+}
+/* Contact Section Enhancements */
+
+.contact-section {
+  background: #ffffff;
+  border-radius: 25px;
+  padding: 50px 60px;
+  box-shadow: 0 8px 34px rgba(70, 100, 220, 0.08);
+  transition: box-shadow 0.3s ease;
+}
+
+.contact-section:hover {
+  box-shadow: 0 12px 40px rgba(70, 100, 220, 0.15);
+}
+
+.contact-section h2 {
+  color: #2c3e70;
+  font-weight: 700;
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1.5px;
+}
+
+.contact-section .group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.contact-section .group .text {
+  flex: 1 1 350px;
+  color: #3a4a6a;
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 450px;
+  text-align: left;
+}
+
+.contact-section .group form {
+  flex: 1 1 350px;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact-section label {
+  font-weight: 600;
+  color: #344770;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.contact-section input,
+.contact-section textarea {
+  padding: 14px 16px;
+  border: 2px solid #a8c0ff;
+  border-radius: 12px;
+  font-size: 16px;
+  color: #222;
+  background-color: #fbfcff;
+  box-shadow: inset 0 2px 6px rgba(168, 192, 255, 0.25);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: 'PT Sans', sans-serif;
+  resize: vertical;
+}
+
+.contact-section input:focus,
+.contact-section textarea:focus {
+  border-color: #4f91ff;
+  box-shadow: 0 0 8px #4f91ffaa;
+  outline: none;
+}
+
+.contact-section button[type="submit"] {
+  padding: 14px 0;
+  background-color: #4f91ff;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(79, 145, 255, 0.5);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.contact-section button[type="submit"]:hover {
+  background-color: #3b6fd9;
+  box-shadow: 0 8px 18px rgba(60, 111, 217, 0.8);
+  transform: translateY(-2px);
+}
+
+/* Responsive tweaks */
+@media (max-width: 700px) {
+  .contact-section .group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-section .group .text,
+  .contact-section .group form {
+    max-width: 100%;
+    flex: none;
+  }
+}
+.main-footer {
+  background: linear-gradient(92deg, #e1e9fd 44%, #c6dafc 100%);
+  box-shadow: 0 -4px 24px #c9e0ff44;
+  padding: 32px 0 18px 0;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-top: 50px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+  font-size: 17px;
+  color: #355;
+}
+
+.footer-social a {
+  margin-left: 18px;
+  color: #3959b7;
+  font-size: 22px;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+
+.footer-social a:hover {
+  color: #4f91ff;
+}
+
+@media (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
+    gap: 14px;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .footer-social {
+    margin-top: 8px;
+  }
+}
+/* Modern cards for sections and skill cells */
+.skills-section .cells .cell,
+.about-section,
+.testimony-section .group,
+.contact-section,
+.future-projects {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px #e7ecff70;
+  border: 1.5px solid #b0c6e3;
+  margin-bottom: 16px;
+}
+
+/* Visually clear nav for all screens */
+nav {
+  background: #f0f5ff;
+  border-bottom: 1.5px solid #cfd8e3;
+  z-index: 100;
+  min-height: 62px;
+}
+nav .right a, nav .right i {
+  color: #3959b7;
+  margin: 0 8px;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+/* Standout links and button styles */
+a, button, .resume-btn a {
+  border-radius: 10px;
+  font-family: inherit;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  border: 2px solid transparent;
+}
+a:focus, button:focus, .resume-btn a:focus {
+  border-color: #4f91ff;
+}
+
+/* Section headers: bolder modern look */
+h2, h3 {
+  color: #3959b7;
+  letter-spacing: 1.2px;
+  font-weight: 800;
+}
+
+/* Consistent input styles */
+input, textarea {
+  border: 1.5px solid #adc3ea;
+  border-radius: 10px;
+  background: #f7f9fc;
+  padding: 12px 16px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+/* Improved button for all forms */
+button[type="submit"] {
+  background: #4f91ff;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 25px;
+  border: none;
+  padding: 12px 28px;
+  font-size: 18px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover,
+.resume-btn a:hover {
+  background: #3959b7;
+  color: #fff;
+}
+
+/* Responsive grid for skills and about/testimony groups */
+.skills-section .cells {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+  gap: 16px;
+}
+
+.testimony-section .group,
+.contact-section .group {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 24px;
+}
+
+/* Multi-breakpoint structure: phones, tablets, desktops */
+@media (max-width: 650px) {
+  nav, .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 10px;
+    min-height: 38px;
+  }
+  .skills-section .cells {
+    grid-template-columns: 1fr;
+  }
+  .testimony-section .group,
+  .contact-section .group {
+    grid-template-columns: 1fr;
+  }
+  .resume-btn a {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    padding: 14px 0;
+  }
+  .footer-social { text-align: center; width: 100%; }
+}
+
+@media (min-width: 651px) and (max-width: 950px) {
+  .skills-section .cells {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .testimony-section .group,
+  .contact-section .group {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 951px) {
+  .skills-section .cells {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+  .testimony-section .group,
+  .contact-section .group {
+    grid-template-columns: 1fr 2fr;
+    gap: 34px;
+  }
+}
+
+/* For very large desktops */
+@media (min-width: 1400px) {
+  body { 
+    max-width: 1600px;
+  }
+  .skills-section, .about-section, .testimony-section, .contact-section {
+    padding: 0 90px;
+  }
+}
+
+/* Dark mode for accessibility */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #181e2f;
+    color: #ecf5ff;
+  }
+  .skills-section .cells .cell,
+  .about-section,
+  .testimony-section .group,
+  .contact-section,
+  .future-projects {
+    background: #23283d;
+    color: #ecf5ff;
+    border-color: #415fa7;
+  }
+  nav {
+    background: #23283d;
+    border-color: #3959b7;
+  }
+  a, nav .right a, nav .right i { color: #7db6ff; }
+  button[type="submit"], .resume-btn a {
+    background: #2f69d8;
+    color: #fff;
+  }
+}
+/* General image styling */
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 14px;
+  box-shadow: 0 2px 16px rgba(79,145,255, 0.10);
+  transition: box-shadow 0.2s, transform 0.15s;
+}
+
+/* For round profile photos — use a specific class when needed */
+.img-round, .person-details img {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  box-shadow: 0 4px 22px #c5d9f555;
+}
+
+/* For skill icons, ensures consistency and padding */
+.skills-section .cells .cell img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  background: #f7f9fc;
+  border-radius: 7px;
+  border: 1.5px solid #d3e2fa;
+  box-shadow: 0 2px 10px #e1e7fa33;
+  transition: box-shadow 0.18s, transform 0.12s;
+  padding: 4px;
+}
+
+/* Card-like hover effect for images in skill or card sections */
+.skills-section .cells .cell img:hover,
+.img-highlight:hover {
+  box-shadow: 0 8px 32px #4f91ff33;
+  transform: scale(1.07);
+}
+
+/* Responsive image tweaks for smaller screens */
+@media (max-width: 650px) {
+  .skills-section .cells .cell img {
+    width: 26px;
+    height: 26px;
+  }
+  .person-details img {
+    width: 110px;
+  }
+}
+
+@media (min-width: 651px) {
+  .person-details img {
+    width: 180px;
+  }
+}
+img {
+  max-width: 120px;  /* Maximum width */
+  max-height: 120px; /* Maximum height */
+  width: auto;       /* Scales while maintaining aspect ratio */
+  height: auto;
+  object-fit: cover; /* Ensures content fills the boundary neatly */
+  border-radius: 12px; /* Optional: for soft rounded corners */
+}
+/* Main photo used in hero/about/featured sections */
+.main-photo {
+  display: block;
+  max-width: 210px;    /* Never larger than this */
+  max-height: 210px;   /* Prevents too-tall images */
+  width: 90vw;         /* Responsive: shrink to viewport if needed */
+  height: auto;        /* Maintain aspect ratio */
+  margin: 0 auto;      /* Perfectly centered */
+  border-radius: 18px; /* Matches your card style */
+  box-shadow: 0 4px 22px #c5d9f555;
+  object-fit: cover;   /* Ensures nice cropping, never stretched */
+  background: #f7f9fc;
+}
+
+/* On mobile, make the photo a bit smaller */
+@media (max-width: 600px) {
+  .main-photo {
+    max-width: 120px;
+    max-height: 120px;
+    border-radius: 12px;
+  }
+}
+.main-photo {
+  display: block;
+  margin: 0 auto 40px auto; /* Adds 40px margin below the image */
+}
+
+.about-content {
+  margin-top: 40px; /* Adds 40px space above the about text */
+}
+
+
